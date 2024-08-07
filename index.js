@@ -9,7 +9,7 @@
 // Name contains an 'i': "will fall in love this week"
 
 let myName;
-myName = "Morganza";
+myName = "Tom";
 // get the length of the name
 let lengthOfName = myName.length;
 // if the name is shorter than 5 give marry early fortune
@@ -29,6 +29,6 @@ console.log("second letter is " + secondCharacter);
 if(firstCharacter === "R") {
     console.log("You'll be Rick James rich!");
 
-} else(secondCharacter === "o") 
+} else if(secondCharacter === "o") 
     console.log("You'll find luck in a foreign country!");
 
