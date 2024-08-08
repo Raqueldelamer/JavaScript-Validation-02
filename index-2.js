@@ -1,6 +1,8 @@
 let n = longName("Raquel");
 console.log(n);
 
+
+
 function longName(firstName) {
     let nameLength = firstName.length;
     if(nameLength > 7) {
@@ -17,4 +19,14 @@ function tellFortune(nameFirst) {
         console.log(`${nameFirst} , you will marry sooner than later.`)
     }
     }
+
+    
+
+    let input1 = "Aprodite";
+    let input2 = "Mateo";
+    let input3 = "Samantha";
+
+    tellFortune("Aphrodite");
+    tellFortune("Mateo");
+    tellFortune("Samantha");
 
