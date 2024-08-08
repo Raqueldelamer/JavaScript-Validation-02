@@ -9,7 +9,7 @@
 // Name contains an 'i': "will fall in love this week"
 
 let myName;
-myName = "Ricky";
+myName = "Aphrodite";
 // get the length of the name
 let lengthOfName = myName.length;
 // if the name is shorter than 5 give marry early fortune
