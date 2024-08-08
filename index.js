@@ -23,13 +23,14 @@ if (lengthOfName <= 5) {
 let firstCharacter = myName[0];
 let secondCharacter = myName[1];
 
-console.log("first letter is " + firstCharacter);
-console.log("second letter is " + secondCharacter);
+// console.log("first letter is " + firstCharacter);
+// console.log("second letter is " + secondCharacter);
 
 if(firstCharacter === "R") {
     console.log("You'll be Rick James rich!");
 
 } 
+
 if(secondCharacter === "o") {
     console.log("You'll find luck in a foreign country!");
 }
