@@ -1,5 +1,5 @@
 
-// if 1st character in name is R 
+// if 1st character in name is 'R' 
 function firstCharacter(yourName) {
     let firstCharacter = yourName[0];
 
@@ -16,7 +16,7 @@ function longName(firstName) {
         return false;
     }
 }
-// if contains or doesn't contain an 'i'
+// if name contains or doesn't contain an 'i'
 function hasAnI(firstName) {
     let i = firstName.includes("i");
     if(i) {
@@ -54,12 +54,12 @@ function tellFortune(nameFirst) {
     let input3 = "Samantha";
     let input4 = "Raquel";
     let input5 = "Tim";
-    let input6 = "Kamala";
+    let input6 = "Richard";
 
     tellFortune("Aphrodite");
     tellFortune("Mateo");
     tellFortune("Samantha");
     tellFortune("Raquel");
     tellFortune("Tim");
-    tellFortune("Kamala");
+    tellFortune("Richard");
 
