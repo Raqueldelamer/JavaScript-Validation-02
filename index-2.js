@@ -1,3 +1,5 @@
+
+// if 1st character in name is R 
 function firstCharacter(yourName) {
     let firstCharacter = yourName[0];
 
@@ -5,7 +7,7 @@ function firstCharacter(yourName) {
       return true;
   }
 }
-
+// if name is longer or less than 7 characters
 function longName(firstName) {
     let nameLength = firstName.length;
     if(nameLength > 7) {
@@ -14,7 +16,7 @@ function longName(firstName) {
         return false;
     }
 }
-
+// if contains or doesn't contain an 'i'
 function hasAnI(firstName) {
     let i = firstName.includes("i");
     if(i) {
